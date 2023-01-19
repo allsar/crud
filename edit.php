@@ -1,7 +1,7 @@
 <?php
 $db = new mysqli('localhost', 'root', '', 'ecommerce');
 if (isset($_POST['edit']) && $_POST['edit']) if (isset($_POST['firstname']) && !empty($_POST['firstname'])) {
-
+//sdaasdasd
     $firstname = $_POST['firstname'];
     if (isset($_POST['lastname']) && !empty($_POST['lastname'])) {
         $lastname = $_POST['lastname'];
