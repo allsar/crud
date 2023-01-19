@@ -85,7 +85,7 @@ $user = $db->query(query: "select id, firstname, lastname , image from users whe
                                     <input type="text" name="lastname" value="<?= $user['lastname'] ?>">
                                 </div>
                             </div>
-                        </div>
+                        </div><!--asdasdas-->
                         <div class="col-6">
                             <div class="card">
                                 <div class="card-header">
